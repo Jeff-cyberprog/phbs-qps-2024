@@ -35,7 +35,23 @@ git clone https://github.com/Jeff-cyberprog/phbs-qps-2024
 cd phbs-qps-2024
 ```
 
-3.run the script
+
+3.create and activate virtual environment(recomment, but optional, you can just use the enviroment you have)
+```bash
+# use conda command to create virtual environment(you can use other command)
+conda create phbs-qps-2024-env python=3.8
+
+# activate virtual environment
+conda activate phbs-qps-2024-env
+```
+
+
+4.install packages
+```bash
+pip install pandas pandas_datareader
+```
+
+5.run the script
 ```bash
 python scripts/Get_US_CPI.py
 ```
