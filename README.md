@@ -1,6 +1,9 @@
 # phbs-qps-2024
 The code is to get US CPI data and report the last quarters of inflation in the US.
 
+## URL to the repository
+[GitHub Repository](https://github.com/Jeff-cyberprog/phbs-qps-2024)
+
 ## file structure
 ```
 phbs-qps-2024
